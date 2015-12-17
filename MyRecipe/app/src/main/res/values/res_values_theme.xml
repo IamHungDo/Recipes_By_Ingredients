@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+        <style name="Theme.AnApp" parent="">
+
+            <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
+
+            <!-- ... -->
+
+        </style>
+
+        <style name="Theme.AnApp.Logo">
+
+            <item name="android:actionBarStyle">@style/Widget.ActionBar.Logo</item>
+
+            <!-- ... -->
+
+        </style>
+
+
+</resources>

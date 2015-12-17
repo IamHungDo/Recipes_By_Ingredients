@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fae4bb">
+    <CheckBoxPreference android:title="Vegetarian"
+        android:key="veg"
+        android:summary="The recipe list will only display vegetarian recipes"
+        android:defaultValue="false"/>
+    <CheckBoxPreference android:title="Gluten-Free"
+        android:key="gluten_free"
+        android:summary="The recipe list will exclude any recipes that contain gluten"
+        android:defaultValue="false"/>
+    <Preference
+        android:key="location_settings"
+        android:title="Access Location Settings"
+        android:summary="Opens device's location settings screen" />
+    <Preference
+        android:key="reset_default"
+        android:title="Restore Default Settings"
+        android:summary="Resets all settings to their default values" />
+</PreferenceScreen>

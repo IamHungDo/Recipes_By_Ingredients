@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:paddingTop="16dp"
+android:paddingBottom="16dp"
+    android:background="@drawable/lay"
+tools:context=".MainActivity" >
+
+<!--  <ListView
+    android:id="@+id/list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:divider="@color/list_divider"
+    android:dividerHeight="1dp"
+    android:listSelector="@drawable/list_row_selector" /> -->
+
+<Button
+    android:layout_width="150dp"
+    android:layout_height="50dp"
+    android:text=""
+    android:background="@drawable/enter"
+    android:id="@+id/button"
+    android:onClick="sendMessage"
+    android:layout_marginTop="51dp"
+    android:layout_below="@+id/editText"
+    android:layout_centerHorizontal="true" />
+
+
+
+<EditText
+    android:layout_width="525dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/editText"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

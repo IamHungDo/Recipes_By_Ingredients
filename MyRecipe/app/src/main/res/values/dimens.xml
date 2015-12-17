@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="title">17dp</dimen>
+    <dimen name="label">17dp</dimen>
+    <dimen name="social_rank">15dip</dimen>
+    <dimen name="publisher">13dip</dimen>
+    <dimen name="recipe_id">12dip</dimen>
+    <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item">17dp</dimen>
+    <dimen name="brand">12dip</dimen>
+    <dimen name="calories">12dip</dimen>
+    <dimen name="fat">12dip</dimen>
+    <dimen name="favTitle">17dp</dimen>
+    <dimen name="favPublisher">13dip</dimen>
+</resources>

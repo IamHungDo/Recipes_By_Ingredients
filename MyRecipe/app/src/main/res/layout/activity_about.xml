@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/lay">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/imageView2" />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitter_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="159dp"
+        android:layout_above="@+id/fb_login_button"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DISH is an Android Application, the product of group 10 in CSC 413 class of fall 2015, in San Francisco State University, lectured by Marc Sosnick. Group 10 members are Asaf Weinberg, Hung Do, Nimitha Ramesh, Jay Naidu and Sahithi Visvanathan. "
+        android:id="@+id/textView4"
+        android:gravity="center"
+        android:layout_marginBottom="105dp"
+        android:layout_above="@+id/twitter_login_button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="48dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/sslogo"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Log In Twitter to Tweet Recipes"
+        android:id="@+id/textView5"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignTop="@+id/twitter_login_button"
+        android:layout_toStartOf="@+id/twitter_login_button"
+        android:layout_above="@+id/fb_login_button"
+        android:layout_marginBottom="133dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Log In FaceBook to Share Application"
+        android:id="@+id/textView6"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_toStartOf="@+id/fb_login_button"
+        android:layout_alignTop="@+id/twitter_login_button"
+        android:layout_marginTop="191dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="56dp" />
+
+
+</RelativeLayout>

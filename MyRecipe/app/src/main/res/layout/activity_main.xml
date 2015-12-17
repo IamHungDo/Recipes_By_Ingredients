@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/lay"
+    >
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getRecipe"
+        android:background="@drawable/recipe"
+
+        android:layout_marginTop="64dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginBottom="566dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Favorites"
+        android:background="@drawable/fav1"
+        android:layout_marginStart="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="222dp"
+        android:layout_marginBottom="345dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="101dp"
+        android:layout_alignTop="@+id/getRecipe"
+        android:layout_toStartOf="@+id/Preferences" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nutrition"
+        android:background="@drawable/nutrition"
+        android:layout_alignTop="@+id/Favorites"
+        android:layout_alignBottom="@+id/Favorites"
+        android:layout_marginStart="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="78dp"
+        android:layout_alignStart="@+id/getRecipe" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FindStore"
+        android:background="@drawable/store1"
+        android:layout_alignStart="@+id/Favorites"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="65dp"
+        android:layout_alignEnd="@+id/Favorites"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/Nutrition" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Preferences"
+        android:background="@drawable/pref1"
+        android:layout_alignTop="@+id/FindStore"
+        android:layout_alignStart="@+id/Nutrition"
+        android:layout_alignBottom="@+id/FindStore"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="68dp" />
+
+
+</RelativeLayout>
